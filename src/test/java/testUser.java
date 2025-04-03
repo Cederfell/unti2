@@ -19,7 +19,7 @@ public class testUser {
     @Test
     public void testGetPassword() {
         User user = new User("Martin", "Hej12");
-        String expected = "Hej12";
+        String expected = "Hej123";
         String actual = user.getPassword();
         assertEquals(expected, actual);
     }
