@@ -13,7 +13,7 @@ public class testUser {
     public void testGetUserName() {
         User user = new User("Martin", "Hej12");
         String expected = "Martin";
-        String actual = user.getUserName();
+        String actual = user.getUserNam();
         assertEquals(expected, actual);
     }
     @Test
